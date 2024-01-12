@@ -23,13 +23,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define USE_MATRIX_I2C
 
 #define MASTER_LEFT
-#define TAPPING_TERM 250
+#define TAPPING_TERM 200
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define SPLIT_LAYER_STATE_ENABLE
 #define SPLIT_WPM_ENABLE // Enable WPM across split keyboards (+268).
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-//#define SPLIT_OLED_ENABLE
-#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define SPLIT_OLED_ENABLE
+// #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
@@ -66,7 +66,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // RGB Matrix Animation modes. Explicitly enabled
 // For full list of effects, see:
 // https://docs.qmk.fm/#/feature_rgb_matrix?id=rgb-matrix-effects
-#    define ENABLE_RGB_MATRIX_ALPHAS_MODS
+// #    define ENABLE_RGB_MATRIX_ALPHAS_MODS
 #    define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
 // #    define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
 // #    define ENABLE_RGB_MATRIX_BREATHING
